@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  // base: '/RR-MART/',  
+  base: '/RR-MART/',  
   build: {
     outDir: 'docs',  
     assetsDir: 'static',
