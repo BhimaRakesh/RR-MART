@@ -6,5 +6,6 @@ export default defineConfig({
   base: '/RR-MART/',  
   build: {
     outDir: 'docs',  
+    assetsDir: 'static',
   },
 });
