@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom'
 import { CartProvider } from './Stores/context/CartContext.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-<BrowserRouter>
+<BrowserRouter basename="/RR-MART">
   <React.StrictMode>
     <CartProvider>
     <App />
